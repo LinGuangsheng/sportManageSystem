@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{10d21850-cea1-42af-a6a7-428832281c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{f218c03b-096a-4db3-9b7c-cbc687d6c6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\manager">
+      <UniqueIdentifier>{122b4358-fccc-49b1-bf9a-33a62777e779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\athlete">
+      <UniqueIdentifier>{49255861-f11d-4877-ba0a-da677f55b1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\unit">
+      <UniqueIdentifier>{cb3890dd-b3dc-4a8a-9fcf-f0f6cf63c920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\referee">
+      <UniqueIdentifier>{31b582a3-b082-48df-b47a-c723828ab215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\register">
+      <UniqueIdentifier>{5c596ff7-5382-469c-acd3-aa2ba08f9999}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="account.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="baseList.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="participants.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="eventDetail.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="unit.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="referee.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="commonFunction.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="athleteInfo.h">
+      <Filter>Header Files\UI\athlete</Filter>
+    </ClInclude>
+    <ClInclude Include="leader.h">
+      <Filter>Header Files\UI\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="playerManage.h">
+      <Filter>Header Files\UI\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="initReferee.h">
+      <Filter>Header Files\UI\referee</Filter>
+    </ClInclude>
+    <ClInclude Include="unitPreDefine.h">
+      <Filter>Header Files\UI\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="playerInfoChange.h">
+      <Filter>Header Files\UI\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="teamInfoChange.h">
+      <Filter>Header Files\UI\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="addPlayer.h">
+      <Filter>Header Files\UI\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="itemInfo.h">
+      <Filter>Header Files\UI\athlete</Filter>
+    </ClInclude>
+    <ClInclude Include="athletePreDefine.h">
+      <Filter>Header Files\UI\athlete</Filter>
+    </ClInclude>
+    <ClInclude Include="managerPreDefine.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="changeAthlete.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="changeInstitute.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="changeInstituteAthlete.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="changeLeader.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="checkInformation.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="checkRefereeInfo.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="eventInfoChange.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="eventInfoManage.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="eventRegister.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="instituteManage.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="instituteRegister.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="leaderRegister.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="refereeInfoManage.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="setRefereeInfo.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="smRefereeInfo.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="addReferee.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="smInfoManage.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="unitAccountRegister.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="refereeAccountRegister.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="registerPredefine.h">
+      <Filter>Header Files\UI\register</Filter>
+    </ClInclude>
+    <ClInclude Include="athleteRegister.h">
+      <Filter>Header Files\UI\register</Filter>
+    </ClInclude>
+    <ClInclude Include="preDefine.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="registration.h">
+      <Filter>Header Files\UI\register</Filter>
+    </ClInclude>
+    <ClInclude Include="unitRegister.h">
+      <Filter>Header Files\UI\register</Filter>
+    </ClInclude>
+    <ClInclude Include="leaderR.h">
+      <Filter>Header Files\UI\register</Filter>
+    </ClInclude>
+    <ClInclude Include="refereeR.h">
+      <Filter>Header Files\UI\register</Filter>
+    </ClInclude>
+    <ClInclude Include="teamPerformanceCheck.h">
+      <Filter>Header Files\UI\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="refereePredefine.h">
+      <Filter>Header Files\UI\referee</Filter>
+    </ClInclude>
+    <ClInclude Include="checkSportMeetingInformation.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="unitNewPlayerAccount.h">
+      <Filter>Header Files\UI\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="unitSMcheck.h">
+      <Filter>Header Files\UI\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="athleteCheckSM.h">
+      <Filter>Header Files\UI\athlete</Filter>
+    </ClInclude>
+    <ClInclude Include="refereeCHeckSM.h">
+      <Filter>Header Files\UI\referee</Filter>
+    </ClInclude>
+    <ClInclude Include="checkScore.h">
+      <Filter>Header Files\UI\referee</Filter>
+    </ClInclude>
+    <ClInclude Include="checkBook.h">
+      <Filter>Header Files\UI\manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

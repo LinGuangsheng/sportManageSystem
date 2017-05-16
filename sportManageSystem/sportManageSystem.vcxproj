@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{80178CD5-DF7C-46E3-BAE7-3F8808BDF7A6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>sportManageSystem</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\sport\sportManageSystem\sportManageSystem;D:\gtk_3_20\include\pixman-1;D:\gtk_3_20\include\pango-1.0;D:\gtk_3_20\include\minizip;D:\gtk_3_20\include\lzo;D:\gtk_3_20\include\lzma;D:\gtk_3_20\include\libxml2;D:\gtk_3_20\include\librsvg-2.0;D:\gtk_3_20\include\libpng16;D:\gtk_3_20\include\libcroco-0.6;D:\gtk_3_20\include\json-glib-1.0;D:\gtk_3_20\include\jasper;D:\gtk_3_20\include\harfbuzz;D:\gtk_3_20\include\gtk-3.0;D:\gtk_3_20\include\graphite2;D:\gtk_3_20\include\glib-2.0;D:\gtk_3_20\include\gio-win32-2.0;D:\gtk_3_20\include\gdk-pixbuf-2.0;D:\gtk_3_20\include\gail-3.0;D:\gtk_3_20\include\freetype2;D:\gtk_3_20\include\fontconfig;D:\gtk_3_20\include\epoxy;D:\gtk_3_20\include\editline;D:\gtk_3_20\include\cairo;D:\gtk_3_20\include\atk-1.0;D:\gtk_3_20\lib\libffi-3.2.1\include;D:\gtk_3_20\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\gtk_3_20\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\20170404\sportManageSystem\sportManageSystem;E:\20170404\sportManageSystem;D:\gtk_3_20\include\pixman-1;D:\gtk_3_20\include\pango-1.0;D:\gtk_3_20\include\minizip;D:\gtk_3_20\include\lzo;D:\gtk_3_20\include\lzma;D:\gtk_3_20\include\libxml2;D:\gtk_3_20\include\librsvg-2.0;D:\gtk_3_20\include\libpng16;D:\gtk_3_20\include\libcroco-0.6;D:\gtk_3_20\include\json-glib-1.0;D:\gtk_3_20\include\jasper;D:\gtk_3_20\include\harfbuzz;D:\gtk_3_20\include\gtk-3.0;D:\gtk_3_20\include\graphite2;D:\gtk_3_20\include\glib-2.0;D:\gtk_3_20\include\gio-win32-2.0;D:\gtk_3_20\include\gdk-pixbuf-2.0;D:\gtk_3_20\include\gail-3.0;D:\gtk_3_20\include\freetype2;D:\gtk_3_20\include\fontconfig;D:\gtk_3_20\include\epoxy;D:\gtk_3_20\include\editline;D:\gtk_3_20\include\cairo;D:\gtk_3_20\include\atk-1.0;D:\gtk_3_20\lib\libffi-3.2.1\include;D:\gtk_3_20\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\gtk_3_20\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\LIN\Desktop\运动会\sportManageSystem\sportManageSystem;D:\gtk_3_20\include\pixman-1;D:\gtk_3_20\include\pango-1.0;D:\gtk_3_20\include\minizip;D:\gtk_3_20\include\lzo;D:\gtk_3_20\include\lzma;D:\gtk_3_20\include\libxml2;D:\gtk_3_20\include\librsvg-2.0;D:\gtk_3_20\include\libpng16;D:\gtk_3_20\include\libcroco-0.6;D:\gtk_3_20\include\json-glib-1.0;D:\gtk_3_20\include\jasper;D:\gtk_3_20\include\harfbuzz;D:\gtk_3_20\include\gtk-3.0;D:\gtk_3_20\include\graphite2;D:\gtk_3_20\include\glib-2.0;D:\gtk_3_20\include\gio-win32-2.0;D:\gtk_3_20\include\gdk-pixbuf-2.0;D:\gtk_3_20\include\gail-3.0;D:\gtk_3_20\include\freetype2;D:\gtk_3_20\include\fontconfig;D:\gtk_3_20\include\epoxy;D:\gtk_3_20\include\editline;D:\gtk_3_20\include\cairo;D:\gtk_3_20\include\atk-1.0;D:\gtk_3_20\lib\libffi-3.2.1\include;D:\gtk_3_20\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\gtk_3_20\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>-ID:/gtk_3_20/include/gtk-3.0 -ID:/gtk_3_20/include/cairo -ID:/gtk_3_20/include -ID:/gtk_3_20/include/pango-1.0 -ID:/gtk_3_20/include/atk-1.0 -ID:/gtk_3_20/include/cairo -ID:/gtk_3_20/include/pixman-1 -ID:/gtk_3_20/include -ID:/gtk_3_20/include/freetype2 -ID:/gtk_3_20/include/libpng16 -ID:/gtk_3_20/include/harfbuzz -ID:/gtk_3_20/include/glib-2.0 -ID:/gtk_3_20/lib/glib-2.0/include -ID:/gtk_3_20/include -ID:/gtk_3_20/include/freetype2 -ID:/gtk_3_20/include -ID:/gtk_3_20/include/harfbuzz -I/mingw64/include -ID:/gtk_3_20/include/libpng16 -ID:/gtk_3_20/include/gdk-pixbuf-2.0 -ID:/gtk_3_20/include/libpng16 -ID:/gtk_3_20/include/glib-2.0 -ID:/gtk_3_20/lib/glib-2.0/include -ID:/gtk_3_20/include %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>edit.lib libasprintf-0.lib libatk-1.0-0.lib libatomic-1.lib libbz2-1.lib libcairo-2.lib libcairo-gobject-2.lib libcairo-script-interpreter-2.lib libcharset-1.lib libcroco-0.6-3.lib libepoxy-0.lib libexpat-1.lib libffi-6.lib libfontconfig-1.lib libfreetype-6.lib libgailutil-3-0.lib libgcc_s_seh-1.lib libgdk-3-0.lib libgdk_pixbuf-2.0-0.lib libgettextlib-0-19-7.lib libgettextpo-0.lib libgettextsrc-0-19-7.lib libgio-2.0-0.lib libglib-2.0-0.lib libgmodule-2.0-0.lib libgmp-10.lib libgmpxx-4.lib libgobject-2.0-0.lib libgomp-1.lib libgomp-plugin-host_nonshm-1.lib libgraphite2.lib libgthread-2.0-0.lib libgtk-3-0.lib libgtkreftestprivate-0.lib libharfbuzz-0.lib libharfbuzz-gobject-0.lib libharfbuzz-icu-0.lib libiconv-2.lib libintl-8.lib libjasper-1.lib libjpeg-8.lib libjson-glib-1.0-0.lib liblzma-5.lib liblzo2-2.lib libminizip-1.lib libpango-1.0-0.lib libpangocairo-1.0-0.lib libpangoft2-1.0-0.lib libpangowin32-1.0-0.lib libpcre-1.lib libpcre16-0.lib libpcre32-0.lib libpcrecpp-0.lib libpcreposix-0.lib libpixman-1-0.lib libpng16-16.lib libquadmath-0.lib librsvg-2-2.lib libssp-0.lib libstdc++-6.lib libtiff-5.lib libtiffxx-5.lib libturbojpeg-0.lib libvtv-0.lib libvtv_stubs-0.lib libwinpthread-1.lib libxml2-2.lib zlib1.lib  /ENTRY:mainCRTStartup %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>-ID:/gtk_3_20/include/gtk-3.0 -ID:/gtk_3_20/include/cairo -ID:/gtk_3_20/include -ID:/gtk_3_20/include/pango-1.0 -ID:/gtk_3_20/include/atk-1.0 -ID:/gtk_3_20/include/cairo -ID:/gtk_3_20/include/pixman-1 -ID:/gtk_3_20/include -ID:/gtk_3_20/include/freetype2 -ID:/gtk_3_20/include/libpng16 -ID:/gtk_3_20/include/harfbuzz -ID:/gtk_3_20/include/glib-2.0 -ID:/gtk_3_20/lib/glib-2.0/include -ID:/gtk_3_20/include -ID:/gtk_3_20/include/freetype2 -ID:/gtk_3_20/include -ID:/gtk_3_20/include/harfbuzz -I/mingw64/include -ID:/gtk_3_20/include/libpng16 -ID:/gtk_3_20/include/gdk-pixbuf-2.0 -ID:/gtk_3_20/include/libpng16 -ID:/gtk_3_20/include/glib-2.0 -ID:/gtk_3_20/lib/glib-2.0/include -ID:/gtk_3_20/include %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>edit.lib libasprintf-0.lib libatk-1.0-0.lib libatomic-1.lib libbz2-1.lib libcairo-2.lib libcairo-gobject-2.lib libcairo-script-interpreter-2.lib libcharset-1.lib libcroco-0.6-3.lib libepoxy-0.lib libexpat-1.lib libffi-6.lib libfontconfig-1.lib libfreetype-6.lib libgailutil-3-0.lib libgcc_s_seh-1.lib libgdk-3-0.lib libgdk_pixbuf-2.0-0.lib libgettextlib-0-19-7.lib libgettextpo-0.lib libgettextsrc-0-19-7.lib libgio-2.0-0.lib libglib-2.0-0.lib libgmodule-2.0-0.lib libgmp-10.lib libgmpxx-4.lib libgobject-2.0-0.lib libgomp-1.lib libgomp-plugin-host_nonshm-1.lib libgraphite2.lib libgthread-2.0-0.lib libgtk-3-0.lib libgtkreftestprivate-0.lib libharfbuzz-0.lib libharfbuzz-gobject-0.lib libharfbuzz-icu-0.lib libiconv-2.lib libintl-8.lib libjasper-1.lib libjpeg-8.lib libjson-glib-1.0-0.lib liblzma-5.lib liblzo2-2.lib libminizip-1.lib libpango-1.0-0.lib libpangocairo-1.0-0.lib libpangoft2-1.0-0.lib libpangowin32-1.0-0.lib libpcre-1.lib libpcre16-0.lib libpcre32-0.lib libpcrecpp-0.lib libpcreposix-0.lib libpixman-1-0.lib libpng16-16.lib libquadmath-0.lib librsvg-2-2.lib libssp-0.lib libstdc++-6.lib libtiff-5.lib libtiffxx-5.lib libturbojpeg-0.lib libvtv-0.lib libvtv_stubs-0.lib libwinpthread-1.lib libxml2-2.lib zlib1.lib  /ENTRY:mainCRTStartup %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>-ID:/gtk_3_20/include/gtk-3.0 -ID:/gtk_3_20/include/cairo -ID:/gtk_3_20/include -ID:/gtk_3_20/include/pango-1.0 -ID:/gtk_3_20/include/atk-1.0 -ID:/gtk_3_20/include/cairo -ID:/gtk_3_20/include/pixman-1 -ID:/gtk_3_20/include -ID:/gtk_3_20/include/freetype2 -ID:/gtk_3_20/include/libpng16 -ID:/gtk_3_20/include/harfbuzz -ID:/gtk_3_20/include/glib-2.0 -ID:/gtk_3_20/lib/glib-2.0/include -ID:/gtk_3_20/include -ID:/gtk_3_20/include/freetype2 -ID:/gtk_3_20/include -ID:/gtk_3_20/include/harfbuzz -I/mingw64/include -ID:/gtk_3_20/include/libpng16 -ID:/gtk_3_20/include/gdk-pixbuf-2.0 -ID:/gtk_3_20/include/libpng16 -ID:/gtk_3_20/include/glib-2.0 -ID:/gtk_3_20/lib/glib-2.0/include -ID:/gtk_3_20/include %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalOptions>edit.lib libasprintf-0.lib libatk-1.0-0.lib libatomic-1.lib libbz2-1.lib libcairo-2.lib libcairo-gobject-2.lib libcairo-script-interpreter-2.lib libcharset-1.lib libcroco-0.6-3.lib libepoxy-0.lib libexpat-1.lib libffi-6.lib libfontconfig-1.lib libfreetype-6.lib libgailutil-3-0.lib libgcc_s_seh-1.lib libgdk-3-0.lib libgdk_pixbuf-2.0-0.lib libgettextlib-0-19-7.lib libgettextpo-0.lib libgettextsrc-0-19-7.lib libgio-2.0-0.lib libglib-2.0-0.lib libgmodule-2.0-0.lib libgmp-10.lib libgmpxx-4.lib libgobject-2.0-0.lib libgomp-1.lib libgomp-plugin-host_nonshm-1.lib libgraphite2.lib libgthread-2.0-0.lib libgtk-3-0.lib libgtkreftestprivate-0.lib libharfbuzz-0.lib libharfbuzz-gobject-0.lib libharfbuzz-icu-0.lib libiconv-2.lib libintl-8.lib libjasper-1.lib libjpeg-8.lib libjson-glib-1.0-0.lib liblzma-5.lib liblzo2-2.lib libminizip-1.lib libpango-1.0-0.lib libpangocairo-1.0-0.lib libpangoft2-1.0-0.lib libpangowin32-1.0-0.lib libpcre-1.lib libpcre16-0.lib libpcre32-0.lib libpcrecpp-0.lib libpcreposix-0.lib libpixman-1-0.lib libpng16-16.lib libquadmath-0.lib librsvg-2-2.lib libssp-0.lib libstdc++-6.lib libtiff-5.lib libtiffxx-5.lib libturbojpeg-0.lib libvtv-0.lib libvtv_stubs-0.lib libwinpthread-1.lib libxml2-2.lib zlib1.lib  /ENTRY:mainCRTStartup %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="account.h" />
+    <ClInclude Include="athleteCheckSM.h" />
+    <ClInclude Include="athleteRegister.h" />
+    <ClInclude Include="checkBook.h" />
+    <ClInclude Include="checkScore.h" />
+    <ClInclude Include="checkSportMeetingInformation.h" />
+    <ClInclude Include="leaderR.h" />
+    <ClInclude Include="preDefine.h" />
+    <ClInclude Include="refereeAccountRegister.h" />
+    <ClInclude Include="refereeCHeckSM.h" />
+    <ClInclude Include="refereePredefine.h" />
+    <ClInclude Include="refereeR.h" />
+    <ClInclude Include="registerPredefine.h" />
+    <ClInclude Include="registration.h" />
+    <ClInclude Include="teamPerformanceCheck.h" />
+    <ClInclude Include="unitAccountRegister.h" />
+    <ClInclude Include="addPlayer.h" />
+    <ClInclude Include="addReferee.h" />
+    <ClInclude Include="athleteInfo.h" />
+    <ClInclude Include="athletePreDefine.h" />
+    <ClInclude Include="base.h" />
+    <ClInclude Include="baseList.h" />
+    <ClInclude Include="changeAthlete.h" />
+    <ClInclude Include="changeInstitute.h" />
+    <ClInclude Include="changeInstituteAthlete.h" />
+    <ClInclude Include="changeLeader.h" />
+    <ClInclude Include="checkInformation.h" />
+    <ClInclude Include="checkRefereeInfo.h" />
+    <ClInclude Include="commonFunction.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="eventDetail.h" />
+    <ClInclude Include="eventInfoChange.h" />
+    <ClInclude Include="eventInfoManage.h" />
+    <ClInclude Include="eventRegister.h" />
+    <ClInclude Include="initReferee.h" />
+    <ClInclude Include="instituteManage.h" />
+    <ClInclude Include="instituteRegister.h" />
+    <ClInclude Include="itemInfo.h" />
+    <ClInclude Include="leader.h" />
+    <ClInclude Include="leaderRegister.h" />
+    <ClInclude Include="login.h" />
+    <ClInclude Include="manager.h" />
+    <ClInclude Include="managerPreDefine.h" />
+    <ClInclude Include="participants.h" />
+    <ClInclude Include="playerInfoChange.h" />
+    <ClInclude Include="playerManage.h" />
+    <ClInclude Include="referee.h" />
+    <ClInclude Include="refereeInfoManage.h" />
+    <ClInclude Include="setRefereeInfo.h" />
+    <ClInclude Include="smInfoManage.h" />
+    <ClInclude Include="smRefereeInfo.h" />
+    <ClInclude Include="teamInfoChange.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="unit.h" />
+    <ClInclude Include="unitNewPlayerAccount.h" />
+    <ClInclude Include="unitPreDefine.h" />
+    <ClInclude Include="unitRegister.h" />
+    <ClInclude Include="unitSMcheck.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

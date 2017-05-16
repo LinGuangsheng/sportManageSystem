@@ -1,0 +1,22 @@
+﻿生成启动时间为 2017/3/7 23:32:53。
+     1>项目“C:\Users\LIN\Desktop\运动会\sportManageSystem\sportManageSystem\sportManageSystem.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LIN\Desktop\运动会\sportManageSystem\x64\Release\sportManageSystem.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\LIN\Desktop\运动会\sportManageSystem\x64\Release\sportManageSystem.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LIN\Desktop\运动会\sportManageSystem\x64\Release\sportManageSystem.lib" /MACHINE:X64 edit.lib libasprintf-0.lib libatk-1.0-0.lib libatomic-1.lib libbz2-1.lib libcairo-2.lib libcairo-gobject-2.lib libcairo-script-interpreter-2.lib libcharset-1.lib libcroco-0.6-3.lib libepoxy-0.lib libexpat-1.lib libffi-6.lib libfontconfig-1.lib libfreetype-6.lib libgailutil-3-0.lib libgcc_s_seh-1.lib libgdk-3-0.lib libgdk_pixbuf-2.0-0.lib libgettextlib-0-19-7.lib libgettextpo-0.lib libgettextsrc-0-19-7.lib libgio-2.0-0.lib libglib-2.0-0.lib libgmodule-2.0-0.lib libgmp-10.lib libgmpxx-4.lib libgobject-2.0-0.lib libgomp-1.lib libgomp-plugin-host_nonshm-1.lib libgraphite2.lib libgthread-2.0-0.lib libgtk-3-0.lib libgtkreftestprivate-0.lib libharfbuzz-0.lib libharfbuzz-gobject-0.lib libharfbuzz-icu-0.lib libiconv-2.lib libintl-8.lib libjasper-1.lib libjpeg-8.lib libjson-glib-1.0-0.lib liblzma-5.lib liblzo2-2.lib libminizip-1.lib libpango-1.0-0.lib libpangocairo-1.0-0.lib libpangoft2-1.0-0.lib libpangowin32-1.0-0.lib libpcre-1.lib libpcre16-0.lib libpcre32-0.lib libpcrecpp-0.lib libpcreposix-0.lib libpixman-1-0.lib libpng16-16.lib libquadmath-0.lib librsvg-2-2.lib libssp-0.lib libstdc++-6.lib libtiff-5.lib libtiffxx-5.lib libturbojpeg-0.lib libvtv-0.lib libvtv_stubs-0.lib libwinpthread-1.lib libxml2-2.lib zlib1.lib  /ENTRY:mainCRTStartup x64\Release\main.obj
+         正在生成代码
+     1>c:\users\lin\desktop\运动会\sportmanagesystem\sportmanagesystem\referee.h(136): warning C4715: “getRefereeNodeByID”: 不是所有的控件路径都返回值
+     1>c:\users\lin\desktop\运动会\sportmanagesystem\sportmanagesystem\unit.h(139): warning C4715: “getUnitNodeByName”: 不是所有的控件路径都返回值
+     1>c:\users\lin\desktop\运动会\sportmanagesystem\sportmanagesystem\unit.h(127): warning C4715: “getUnitNodeByID”: 不是所有的控件路径都返回值
+     1>c:\users\lin\desktop\运动会\sportmanagesystem\sportmanagesystem\athletechecksm.h(190): error C4703: 使用了可能未初始化的本地指针变量“node”
+     1>c:\users\lin\desktop\运动会\sportmanagesystem\sportmanagesystem\refereechecksm.h(192): error C4703: 使用了可能未初始化的本地指针变量“node”
+     1>c:\users\lin\desktop\运动会\sportmanagesystem\sportmanagesystem\unitsmcheck.h(188): error C4703: 使用了可能未初始化的本地指针变量“node”
+     1>c:\users\lin\desktop\运动会\sportmanagesystem\sportmanagesystem\checksportmeetinginformation.h(226): error C4703: 使用了可能未初始化的本地指针变量“node”
+     1>c:\users\lin\desktop\运动会\sportmanagesystem\sportmanagesystem\referee.h(160): error C4703: 使用了可能未初始化的本地指针变量“referee”
+     1>c:\users\lin\desktop\运动会\sportmanagesystem\sportmanagesystem\unit.h(163): error C4703: 使用了可能未初始化的本地指针变量“unit”
+     1>c:\users\lin\desktop\运动会\sportmanagesystem\sportmanagesystem\referee.h(150): error C4703: 使用了可能未初始化的本地指针变量“referee”
+     1>c:\users\lin\desktop\运动会\sportmanagesystem\sportmanagesystem\unit.h(153): error C4703: 使用了可能未初始化的本地指针变量“unit”
+     1>LINK : fatal error LNK1257: 代码生成失败
+     1>已完成生成项目“C:\Users\LIN\Desktop\运动会\sportManageSystem\sportManageSystem\sportManageSystem.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.68
